@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Horrorflix</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>HORRORFLIX</h1>
+        <p>Enter the archive.</p>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>What are you afraid of?</h2>
+
+            <div class="categories">
+                <button data-category="ALL">ALL</button>
+                <button data-category="CLASSIC HORROR">CLASSIC HORROR</button>
+                <button data-category="GOTHIC HORROR">GOTHIC HORROR</button>
+                <button data-category="MONSTERS">MONSTERS</button>
+                <button data-category="SILENT NIGHTMARES">SILENT NIGHTMARES</button>
+            </div>
+        </section>
+
+        <section class="movies">
+            <h2>Featured Films</h2>
+
+            <div id="movie-list">
+            </div>
+        </section>
+
+    </main>
+        <div id="movie-modal" class="modal">
+            <div class="modal-content">
+
+                <button id="close-modal" class="close-modal">×</button>
+
+                <img id="modal-poster" src="" alt="Movie poster">
+
+                <div class="modal-info">
+                    <h2 id="modal-title"></h2>
+                    <p id="modal-details"></p>
+                    <p id="modal-synopsis"></p>
+                </div>
+
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
