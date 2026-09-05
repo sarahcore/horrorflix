@@ -2,6 +2,10 @@
 
 > **Enter the archive.**
 
+## 🌐 Live Demo
+
+Explore the project online: **[Open Horrorflix](https://sarahcore.github.io/horrorflix/)**
+
 Horrorflix is an interactive web archive dedicated to classic horror cinema.
 
 The project was created as a way to practice front-end development while exploring one of my personal interests: horror movies. Instead of recreating a traditional streaming platform, I chose to build a small digital archive where users can browse classic films by horror subgenre and learn more about each title.
